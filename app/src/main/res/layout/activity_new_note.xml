@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samatya.yusuf.login.ActivityNewNote">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Yeni Not"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Başlık"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Notunuz..."
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_below="@+id/editText7"
+        android:layout_marginTop="30dp"
+        android:text="Kaydet" />
+
+</android.widget.RelativeLayout>
